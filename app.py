@@ -33,7 +33,6 @@ def checkContainers():
             response1 = requests.get('http://member:4001/ping', timeout=2)
             if response1.text != "OK":
                 memberNoAckNum += 1
-            print("member: ", response1.text)
         except requests.exceptions.RequestException as e:
             logging.warning(str(datetime.now())+'-> member: no response ')
             memberNoAckNum += 1
@@ -43,7 +42,6 @@ def checkContainers():
                 'http://product:4002/ping', timeout=2)
             if response2.text != "OK":
                 productNoAckNum += 1
-            print("product: ", response2.text)
 
         except requests.exceptions.RequestException as e:
             logging.warning(str(datetime.now())+': product: no response ')
@@ -54,7 +52,6 @@ def checkContainers():
                 'http://gateway:8080/ping', timeout=2)
             if response3.text != "OK":
                 gatewayNoAckNum += 1
-            print("gateway: ", response3.text)
 
         except requests.exceptions.RequestException as e:
             logging.warning(str(datetime.now())+': gateway: no response ')
