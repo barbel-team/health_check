@@ -4,6 +4,7 @@ ADD ./process.sh /tmp/process.sh
 WORKDIR /app
 RUN pip install Flask
 RUN pip install requests
+RUN pip install schedule
 RUN apt-get update && apt-get install curl -y
 
 # RUN chmod +x /tmp/process.sh

@@ -2,12 +2,13 @@ import logging
 import os
 import sys
 import time
-from sched import scheduler
 
 import requests
+import schedule
 from flask import Flask, request
 
-scheduler.every().day.at("23:00").do(requests.get('http://product:4002/sync'))
+schedule.every().day.at("23:00").do(
+    requests.get, "curl http://product:4002/sync")
 app = Flask(__name__)
 
 
