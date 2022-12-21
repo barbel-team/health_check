@@ -1,12 +1,15 @@
 import logging
 import os
-import sys
 import time
+from datetime import datetime
 
 import requests
 import schedule
 from flask import Flask, request
 
+logger = logging.getLogger()
+handler = logging.FileHandler('/tmp/health_check_logfile.log')
+logger.addHandler(handler)
 schedule.every().day.at("23:00").do(
     requests.get, "curl http://product:4002/sync")
 app = Flask(__name__)
@@ -32,6 +35,7 @@ def checkContainers():
                 memberNoAckNum += 1
             print("member: ", response1.text)
         except requests.exceptions.RequestException as e:
+            logging.warning(str(datetime.now())+'-> member: no response ')
             memberNoAckNum += 1
 
         try:
@@ -42,6 +46,7 @@ def checkContainers():
             print("product: ", response2.text)
 
         except requests.exceptions.RequestException as e:
+            logging.warning(str(datetime.now())+': product: no response ')
             productNoAckNum += 1
 
         try:
@@ -52,18 +57,20 @@ def checkContainers():
             print("gateway: ", response3.text)
 
         except requests.exceptions.RequestException as e:
+            logging.warning(str(datetime.now())+': gateway: no response ')
             gatewayNoAckNum += 1
 
         if memberNoAckNum > 3:
-            logging.warning('restart member container')
+
+            logging.warning(str(datetime.now())+': restart member container')
             os.system("curl host.docker.internal:4050/error/member")
             memberNoAckNum = 0
         if productNoAckNum > 3:
-            logging.warning('restart product container')
+            logging.warning(str(datetime.now())+': restart product container')
             os.system("curl host.docker.internal:4050/error/product")
             productNoAckNum = 0
         if gatewayNoAckNum > 3:
-            logging.warning('restart gateway container')
+            logging.warning(str(datetime.now())+': restart gateway container')
             os.system("curl host.docker.internal:4050/error/gateway")
             gatewayNoAckNum = 0
         time.sleep(1)
@@ -71,6 +78,7 @@ def checkContainers():
 
 @app.route('/test')
 def test():
+    global logger
     os.system("curl host.docker.internal:8080/v1/users/test")
     return 'test'
 

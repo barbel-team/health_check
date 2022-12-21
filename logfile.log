@@ -1,0 +1,477 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://192.168.101.38:4000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 390-560-895
+log message
+
+127.0.0.1 - - [22/Dec/2022 04:08:30] "GET /test HTTP/1.1" 200 -
+log message
+
+127.0.0.1 - - [22/Dec/2022 04:08:43] "GET /test HTTP/1.1" 200 -
+ * Detected change in '/Users/bojun/docker_team/woo/health_check/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 390-560-895
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+restart member container
+restart product container
+restart gateway container
+ * Detected change in '/Users/bojun/docker_team/woo/health_check/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 390-560-895
+127.0.0.1 - - [22/Dec/2022 04:14:29] "[35m[1mGET /startCheck HTTP/1.1[0m" 500 -
+ * Detected change in '/Users/bojun/docker_team/woo/health_check/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 390-560-895
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>restart member container
+<built-in method now of type object at 0x10140c6c8>restart product container
+<built-in method now of type object at 0x10140c6c8>restart gateway container
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>restart member container
+<built-in method now of type object at 0x10140c6c8>restart product container
+<built-in method now of type object at 0x10140c6c8>restart gateway container
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>restart member container
+<built-in method now of type object at 0x10140c6c8>restart product container
+<built-in method now of type object at 0x10140c6c8>restart gateway container
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>restart member container
+<built-in method now of type object at 0x10140c6c8>restart product container
+<built-in method now of type object at 0x10140c6c8>restart gateway container
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>restart member container
+<built-in method now of type object at 0x10140c6c8>restart product container
+<built-in method now of type object at 0x10140c6c8>restart gateway container
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>restart member container
+<built-in method now of type object at 0x10140c6c8>restart product container
+<built-in method now of type object at 0x10140c6c8>restart gateway container
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>restart member container
+<built-in method now of type object at 0x10140c6c8>restart product container
+<built-in method now of type object at 0x10140c6c8>restart gateway container
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+<built-in method now of type object at 0x10140c6c8>member: no response 
+<built-in method now of type object at 0x10140c6c8>product: no response 
+<built-in method now of type object at 0x10140c6c8>gateway: no response 
+ * Detected change in '/Users/bojun/docker_team/woo/health_check/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 390-560-895
+2022-12-22 04:17:07.754799member: no response 
+2022-12-22 04:17:07.761562product: no response 
+2022-12-22 04:17:07.767185gateway: no response 
+2022-12-22 04:17:08.777757member: no response 
+2022-12-22 04:17:08.783681product: no response 
+2022-12-22 04:17:08.790689gateway: no response 
+2022-12-22 04:17:09.801836member: no response 
+2022-12-22 04:17:09.809482product: no response 
+2022-12-22 04:17:09.815652gateway: no response 
+2022-12-22 04:17:10.825384member: no response 
+2022-12-22 04:17:10.830362product: no response 
+2022-12-22 04:17:10.834856gateway: no response 
+2022-12-22 04:17:10.834938restart member container
+2022-12-22 04:17:10.852691restart product container
+2022-12-22 04:17:10.864863restart gateway container
+2022-12-22 04:17:11.882132member: no response 
+2022-12-22 04:17:11.886569product: no response 
+2022-12-22 04:17:11.890931gateway: no response 
+2022-12-22 04:17:12.907804member: no response 
+2022-12-22 04:17:12.914727product: no response 
+2022-12-22 04:17:12.920762gateway: no response 
+2022-12-22 04:17:13.928716member: no response 
+2022-12-22 04:17:13.932903product: no response 
+2022-12-22 04:17:13.936438gateway: no response 
+2022-12-22 04:17:14.949462member: no response 
+2022-12-22 04:17:14.957564product: no response 
+2022-12-22 04:17:14.964010gateway: no response 
+2022-12-22 04:17:14.964237restart member container
+2022-12-22 04:17:14.987417restart product container
+2022-12-22 04:17:15.001090restart gateway container
+2022-12-22 04:17:16.025772member: no response 
+2022-12-22 04:17:16.031629product: no response 
+2022-12-22 04:17:16.039418gateway: no response 
+2022-12-22 04:17:17.049339member: no response 
+2022-12-22 04:17:17.055305product: no response 
+2022-12-22 04:17:17.060789gateway: no response 
+2022-12-22 04:17:18.070702member: no response 
+2022-12-22 04:17:18.078537product: no response 
+2022-12-22 04:17:18.083808gateway: no response 
+2022-12-22 04:17:19.095087member: no response 
+2022-12-22 04:17:19.100923product: no response 
+2022-12-22 04:17:19.110329gateway: no response 
+2022-12-22 04:17:19.110752restart member container
+2022-12-22 04:17:19.133534restart product container
+2022-12-22 04:17:19.147187restart gateway container
+2022-12-22 04:17:20.173513member: no response 
+2022-12-22 04:17:20.179293product: no response 
+2022-12-22 04:17:20.184349gateway: no response 
+2022-12-22 04:17:21.189557member: no response 
+2022-12-22 04:17:21.193801product: no response 
+2022-12-22 04:17:21.197882gateway: no response 
+2022-12-22 04:17:22.206048member: no response 
+2022-12-22 04:17:22.210812product: no response 
+2022-12-22 04:17:22.215164gateway: no response 
+2022-12-22 04:17:23.223731member: no response 
+2022-12-22 04:17:23.228291product: no response 
+2022-12-22 04:17:23.232617gateway: no response 
+2022-12-22 04:17:23.232684restart member container
+2022-12-22 04:17:23.248314restart product container
+2022-12-22 04:17:23.259754restart gateway container
+2022-12-22 04:17:24.281677member: no response 
+2022-12-22 04:17:24.288449product: no response 
+2022-12-22 04:17:24.294581gateway: no response 
+2022-12-22 04:17:25.303046member: no response 
+2022-12-22 04:17:25.309764product: no response 
+2022-12-22 04:17:25.314369gateway: no response 
+2022-12-22 04:17:26.324094member: no response 
+2022-12-22 04:17:26.328629product: no response 
+2022-12-22 04:17:26.332847gateway: no response 
+2022-12-22 04:17:27.343628member: no response 
+2022-12-22 04:17:27.348410product: no response 
+2022-12-22 04:17:27.352916gateway: no response 
+2022-12-22 04:17:27.353026restart member container
+2022-12-22 04:17:27.371672restart product container
+2022-12-22 04:17:27.384321restart gateway container
+2022-12-22 04:17:28.407912member: no response 
+2022-12-22 04:17:28.413151product: no response 
+2022-12-22 04:17:28.417702gateway: no response 
+2022-12-22 04:17:29.424331member: no response 
+2022-12-22 04:17:29.428417product: no response 
+2022-12-22 04:17:29.432396gateway: no response 
+2022-12-22 04:17:30.440217member: no response 
+2022-12-22 04:17:30.444689product: no response 
+2022-12-22 04:17:30.448860gateway: no response 
+2022-12-22 04:17:31.454894member: no response 
+2022-12-22 04:17:31.458962product: no response 
+2022-12-22 04:17:31.463044gateway: no response 
+2022-12-22 04:17:31.463099restart member container
+2022-12-22 04:17:31.474115restart product container
+2022-12-22 04:17:31.483449restart gateway container
+2022-12-22 04:17:32.502771member: no response 
+2022-12-22 04:17:32.506799product: no response 
+2022-12-22 04:17:32.510824gateway: no response 
+2022-12-22 04:17:33.521086member: no response 
+2022-12-22 04:17:33.525304product: no response 
+2022-12-22 04:17:33.529308gateway: no response 
+2022-12-22 04:17:34.542377member: no response 
+2022-12-22 04:17:34.548141product: no response 
+2022-12-22 04:17:34.552671gateway: no response 
+2022-12-22 04:17:35.560016member: no response 
+2022-12-22 04:17:35.564594product: no response 
+2022-12-22 04:17:35.568796gateway: no response 
+2022-12-22 04:17:35.568867restart member container
+2022-12-22 04:17:35.583414restart product container
+2022-12-22 04:17:35.595505restart gateway container
+2022-12-22 04:17:36.615007member: no response 
+2022-12-22 04:17:36.618720product: no response 
+2022-12-22 04:17:36.622662gateway: no response 
+ * Detected change in '/Users/bojun/docker_team/woo/health_check/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 390-560-895
+ * Detected change in '/Users/bojun/docker_team/woo/health_check/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 390-560-895
+2022-12-22 04:17:41.279308: member: no response 
+2022-12-22 04:17:41.284797: product: no response 
+2022-12-22 04:17:41.290853: gateway: no response 
+2022-12-22 04:17:42.300929: member: no response 
+2022-12-22 04:17:42.309783: product: no response 
+2022-12-22 04:17:42.316850: gateway: no response 
+2022-12-22 04:17:43.325234: member: no response 
+2022-12-22 04:17:43.329466: product: no response 
+2022-12-22 04:17:43.333656: gateway: no response 
+2022-12-22 04:17:44.341246: member: no response 
+2022-12-22 04:17:44.346315: product: no response 
+2022-12-22 04:17:44.350949: gateway: no response 
+2022-12-22 04:17:44.351117: restart member container
+2022-12-22 04:17:44.371267: restart product container
+2022-12-22 04:17:44.383304: restart gateway container
+2022-12-22 04:17:45.403730: member: no response 
+2022-12-22 04:17:45.407606: product: no response 
+2022-12-22 04:17:45.411388: gateway: no response 
+2022-12-22 04:17:46.423183: member: no response 
+2022-12-22 04:17:46.428069: product: no response 
+2022-12-22 04:17:46.432774: gateway: no response 
+2022-12-22 04:17:47.441745: member: no response 
+2022-12-22 04:17:47.445813: product: no response 
+2022-12-22 04:17:47.449744: gateway: no response 
+2022-12-22 04:17:48.459534: member: no response 
+2022-12-22 04:17:48.463868: product: no response 
+2022-12-22 04:17:48.468165: gateway: no response 
+2022-12-22 04:17:48.468234: restart member container
+2022-12-22 04:17:48.480896: restart product container
+2022-12-22 04:17:48.491074: restart gateway container
+2022-12-22 04:17:49.511014: member: no response 
+2022-12-22 04:17:49.515505: product: no response 
+2022-12-22 04:17:49.519901: gateway: no response 
+2022-12-22 04:17:50.529938: member: no response 
+2022-12-22 04:17:50.533992: product: no response 
+2022-12-22 04:17:50.538170: gateway: no response 
+2022-12-22 04:17:51.545841: member: no response 
+2022-12-22 04:17:51.550149: product: no response 
+2022-12-22 04:17:51.554623: gateway: no response 
+2022-12-22 04:17:52.564726: member: no response 
+2022-12-22 04:17:52.568759: product: no response 
+2022-12-22 04:17:52.573155: gateway: no response 
+2022-12-22 04:17:52.573219: restart member container
+2022-12-22 04:17:52.584295: restart product container
+2022-12-22 04:17:52.593470: restart gateway container
+2022-12-22 04:17:53.611586: member: no response 
+2022-12-22 04:17:53.615851: product: no response 
+2022-12-22 04:17:53.619727: gateway: no response 
+2022-12-22 04:17:54.629317: member: no response 
+2022-12-22 04:17:54.633463: product: no response 
+2022-12-22 04:17:54.637437: gateway: no response 
+2022-12-22 04:17:55.646962: member: no response 
+2022-12-22 04:17:55.651140: product: no response 
+2022-12-22 04:17:55.654870: gateway: no response 
+2022-12-22 04:17:56.662587: member: no response 
+2022-12-22 04:17:56.666883: product: no response 
+2022-12-22 04:17:56.670838: gateway: no response 
+2022-12-22 04:17:56.670947: restart member container
+2022-12-22 04:17:56.681124: restart product container
+2022-12-22 04:17:56.690558: restart gateway container
+2022-12-22 04:17:57.706648: member: no response 
+2022-12-22 04:17:57.710461: product: no response 
+2022-12-22 04:17:57.714241: gateway: no response 
+2022-12-22 04:17:58.727487: member: no response 
+2022-12-22 04:17:58.733085: product: no response 
+2022-12-22 04:17:58.738095: gateway: no response 
